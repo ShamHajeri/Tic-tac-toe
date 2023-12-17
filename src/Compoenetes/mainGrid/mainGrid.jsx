@@ -64,8 +64,9 @@ const MainGrid = () => {
   }
 
   return (
-    <div>
+    <div class="main">
       <MessageBox trigger={trigger} winner={winner} />
+      <div class="heading">TIC-TAC-TOE</div>
       <div class='grid'>
         <div class="box b1" onClick={(e) => { toggle(e, 0) }}></div>
         <div class="box b1" onClick={(e) => { toggle(e, 1) }}></div>

@@ -1,5 +1,18 @@
-.grid {
+.main {
     margin: auto;
+    width: max-content;
+    height: auto;
+    text-align: center;
+}
+
+.heading {
+    font-size: xx-large;
+    padding: 100px 0px 100px 0px;
+    color: aquamarine;
+    font-weight: 800;
+}
+
+.grid {
     width: 300px;
     height: 300px;
     display: grid;
@@ -26,7 +39,8 @@
     border-right: 2px solid;
     border-color: aquamarine;
 }
-img{
+
+img {
     width: 90%;
     height: auto;
 }

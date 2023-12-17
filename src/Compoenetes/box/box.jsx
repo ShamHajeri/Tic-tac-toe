@@ -5,7 +5,7 @@ import round from '../Assert/o.png'
 
 const crossOrRound = () => {
     console.log('hi');
-    let boo =true;
+    let boo = true;
     if (boo) {
         return <img src={cross}></img>;
     }

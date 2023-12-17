@@ -1,0 +1,24 @@
+.mbox{
+    width: 500px;
+    height: 350px;
+    background-color: rgb(232, 229, 229);
+    text-align: center;
+    border-radius: 15px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left:0;
+    top:0;
+    margin:auto;
+}
+.playBtn{
+padding: 15px 20px 15px 20px ;
+color: aqua;
+background-color: rgb(50, 50, 50);
+border-radius: 20px;
+font-family: monospace;
+}
+.imgFace{
+    width: 200px;
+    height: 200px;
+}

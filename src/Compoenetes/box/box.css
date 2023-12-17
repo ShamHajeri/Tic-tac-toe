@@ -1,0 +1,9 @@
+.box {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+img{
+    width: 90%;
+    height: auto;
+}

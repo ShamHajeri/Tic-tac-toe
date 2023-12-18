@@ -4,7 +4,7 @@ import sadFace from '../Assert/sad.png';
 import './messageBox.css';
 const MessageBox = (props) => {
     let imgFace = happyFace;
-    let message = "Congulation " + props.winner + " won";
+    let message = "Congratulation " + props.winner + " won";
     if (props.winner === 'd') {
         imgFace = sadFace;
         message = " IT IS DRAW "
